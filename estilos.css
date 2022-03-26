@@ -1,0 +1,513 @@
+body{
+    background-color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+* {
+	box-sizing: border-box;
+}
+
+ion-icon{
+    font-size: 20px;
+    }
+
+/* Barra superior */
+
+.barra{
+    background-color: #FFFFFF;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom-style: solid;
+    border-color: #DBDBDB;
+    border-width: 1px;
+    z-index: 1;
+}    
+
+.barra-mobile{
+    display: none;
+}
+.barra > div{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 54px;
+    width: 935px;
+    
+}
+
+.logo{
+    display: flex;
+}
+.logo div{
+    width: 1px;
+    height: 22px;
+    background-color: #DBDBDB;
+    margin: 0 10px;
+}
+
+
+.pesquisa{
+    width: 215px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #DBDBDB;  
+    border-radius: 3px;  
+    
+}
+.pesquisa h4{
+    font-size: 12px;
+    color: #979797;
+}
+
+.icones-sup ion-icon{
+    margin-left: 25px;
+}
+
+/* Barra superior */
+
+
+
+/* Pagina toda */
+
+.conteudo{
+    width: 935px;
+    height: 100%;
+    margin: 0 auto; 
+    margin-top: 54px;
+    display: flex;
+    
+}
+
+
+
+/* Storys + Post */
+
+.principal{
+    width: 614px;    
+    margin-right: 30px;
+    
+}
+
+/* Storys */
+
+.storys{
+    width: 614px;
+    height: 118px;
+    background-color: #FFFFFF;
+    margin-bottom: 24px;    
+    border-style: solid;
+    border-color: #DBDBDB;
+    border-width: 1px;
+    margin-top: 34px ;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.invisivel{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 642px;
+    height: 90px;
+    overflow: hidden;
+    position: absolute;
+    top: 18px;
+    left: 8px;
+}
+
+
+.story{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    position: relative;
+    
+}
+.perfil{
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    left: 5.4px;
+    bottom: 22px;
+}
+.background{
+    width: 66px;
+    height: 66px;
+    border-radius: 33px;
+
+}
+
+.story h3{
+    font-size: 12px;
+    margin-top: 5px; 
+    color: #262626;   
+    font-weight: 400;
+}
+
+.next{
+    color: white;
+    position: absolute;
+    right: 8px;
+    bottom: 43px;
+   
+}
+.next ion-icon{
+    font-size: 30px;
+}
+
+/* Storys */
+
+/* Post */
+
+.post{
+    width: 100%;
+    height: fit-content;
+    background-color: #FFFFFF;
+    margin-bottom: 60px;
+    border-style: solid;
+    border-color: #DBDBDB;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.post h3{
+    font-size: 14px ;
+}
+
+.post img{
+    height: 612px;
+    width: 612px;
+    margin: 0 auto;
+}
+
+
+
+.up{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 17px;
+    margin-right:  18px; ;
+    
+}
+
+.conta{
+    display: flex;
+    align-items: center;
+}
+
+.up h3{
+    font-weight: 500;
+}
+
+.conta img{
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+}
+
+.down img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.icones{
+    display: flex;
+    justify-content: space-between;
+    margin: 17px;
+   
+}
+
+.icone ion-icon{
+    margin-right: 18px;
+}
+
+.i-esq ion-icon{
+    margin-right: 18px;
+    
+}
+
+.curtido{
+    display: flex;    
+    align-items: center;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.curtido img{
+    margin-left: 17px;
+    margin-right: 5px;
+}
+b{
+    font-weight: bold;
+}
+
+
+
+/* Post */
+
+/* Storys + Post */
+
+
+.sidebar{
+    width: 293px;
+    height: fit-content;
+    margin-top: 57px;
+    position: fixed;
+    right: 150px;
+    
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.login img{
+    width: 56px;
+    height: 56px;
+    margin-right: 17px;    
+}
+
+.login h3{
+    font-size: 14px;
+}
+
+
+
+.sugestoes h3{
+    font-size: 12px;
+}
+.texto{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.sugestoes img{
+    width: 32px;
+    height: 32px;
+    margin-right:10px;
+}
+
+.opcoes{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 18px;
+}
+
+.opcoes h3{
+    font-weight: 500;
+    font-size: 14px;
+    color: #262626;
+}
+
+.opcoes h4{
+    font-weight: 500;
+    font-size: 12px;
+    color: #139EF2;
+}
+
+.opcoes h5{
+    font-weight: 400;
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+.pessoa{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.pessoa div{
+    display: flex;
+    flex-direction: column;
+}
+.pessoa h3{
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.sobre{
+    margin-top: 33px;
+}
+
+.sobre h6{
+    font-weight: 400;
+    font-size: 11px;
+    color: #c7c7c7;
+    margin-bottom: 18px;
+}
+
+.barra-inferior{
+    display: none;
+}
+
+/* Pagina toda */
+
+/* Media query */
+
+@media (max-width: 1178px){
+    .sidebar{
+        right: 30px;
+    }
+}
+
+@media (max-width: 935px){
+.sidebar{
+    display: none;
+}
+.conteudo{
+    width: 100%;
+    justify-content: center;
+}
+
+.barra > div{
+     width: 100%;
+     justify-content: space-between;
+     margin: 0px 20px;
+
+}
+
+.principal{
+    justify-content: center;
+    margin: 0px;
+}
+
+.barra-inferior{
+    display: none;
+}
+
+}
+
+@media (max-width: 614px){
+
+    body{
+        width: 100%;
+    }
+    .barra{
+        display: none;
+    }
+
+    .barra-mobile{
+        background-color: #FFFFFF;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border-bottom-style: solid;
+        border-color: #DBDBDB;
+        border-width: 1px;
+        z-index: 1;
+    }    
+
+    .barra-mobile > div{
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 54px;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+        
+    }
+
+    .plane-mobile ion-icon{
+        font-size: 25px;
+    }
+
+    .storys{
+        background-color: whitesmoke;
+        margin: 0px;
+        width: 100%;
+    }
+   
+    .next{
+        display: none;
+    }
+
+    .conteudo{
+        width: 100%;
+        margin-bottom: 50px;
+        
+    }
+    .principal{
+        width: 100%;
+        margin: 0px;
+        justify-content: center;
+        }
+
+    .storys{
+        width: auto;
+        
+    }
+    
+    .invisivel{
+        width: 105%;
+        
+    }
+
+    .post > img{
+        
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    
+    .conta img{
+        margin-right: 15px ;
+    }
+
+    .curtido{
+        margin-left: 0px;
+    }
+
+    .curtido h3{
+        margin-left: 5px;
+        
+    }
+    
+    .barra-inferior{
+        width: 100%;
+        height: 54px;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        background-color: #FFFFFF;
+        z-index: 1;
+    }
+    .barra-inferior ion-icon{
+        font-size: 20px;
+    }
+    
+    
+    
+
+    
+}
